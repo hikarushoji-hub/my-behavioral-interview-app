@@ -2,7 +2,7 @@
 
 "use client";
 
-import InterviewChat from '../../components/InterviewChat'; // 面接チャットコンポーネントをインポート
+import InterviewChat from '../../components/InterviewChat/InterviewChat'; // 面接チャットコンポーネントをインポート
 
 const InterviewPage = () => {
   return (

@@ -1,0 +1,61 @@
+/* src/components/Register/RegistrationSuccess.module.css */
+.outerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* 親コンテナを画面全体に広げ、中央にボックスを配置 */
+    background-color: #f9f9f9;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 90%; /* モバイルデバイスでも中央寄せで適切に表示されるように調整 */
+  }
+  
+  .icon {
+    color: #1E90FF;
+    font-size: 3rem;
+    margin: 20px 0;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .message {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .homeButton {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border: 1px solid #333;
+    border-radius: 4px;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .homeButton:hover {
+    background-color: #f0f0f0;
+  }
+  

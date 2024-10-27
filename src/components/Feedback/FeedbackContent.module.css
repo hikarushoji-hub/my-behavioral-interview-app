@@ -1,0 +1,25 @@
+/* src/components/Feedback/FeedbackContent.module.css */
+
+.feedbackContainer {
+    width: 100%;
+    max-width: 600px; /* RegisterPromptに合わせた最大幅 */
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1E3A5F;
+  }
+  
+  .content {
+    font-size: 1rem;
+    color: #333;
+    text-align: left;
+  }
+  

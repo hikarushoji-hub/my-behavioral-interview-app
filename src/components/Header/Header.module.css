@@ -1,0 +1,45 @@
+.header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+  }
+  
+  .logoContainer {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .logoContainer img {
+    margin-right: 8px;
+  }
+  
+  .serviceName {
+    font-size: 1.5rem;
+    color: #1E3A5F;
+    font-weight: bold;
+  }
+  
+  .navLinks {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-size: 1.25rem;
+  }
+  
+  .navLinks a {
+    color: #1E3A5F;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  .navLinks a:hover {
+    color: #274a7b;
+  }
+  

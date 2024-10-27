@@ -1,0 +1,55 @@
+/* src/components/Feedback/FeedbackPage.module.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .feedbackContent {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 2rem;
+    padding: 2rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1E3A5F; /* RegisterPromptのタイトルに合わせて色を指定 */
+    margin-bottom: 1rem;
+  }
+  
+  .feedbackBox {
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    text-align: left;
+  }
+  
+  .feedbackBox h1, .feedbackBox h2, .feedbackBox h3 {
+    color: #1E3A5F;
+    font-weight: bold;
+  }
+  
+  .feedbackBox ul {
+    margin-left: 1.5rem;
+    list-style-type: disc;
+  }
+  
+  .feedbackBox a {
+    color: #1E3A5F;
+    text-decoration: underline;
+  }
+  
+  .feedbackBox p {
+    margin-bottom: 1rem;
+  }
+  
