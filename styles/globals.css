@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #f9f9f9; /* 全体の背景色を薄いグレー系に変更 */
+  --foreground: #171717; /* メインの文字色を黒に設定 */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #f9f9f9;
+    --foreground: #171717;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+  color: #171717; /* ラベルの文字色を黒に設定 */
+  font-weight: 600;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 8px;
+  border: 1px solid #E0E0E0;
+  font-size: 16px;
+  border-radius: 4px;
+  background-color: #ffffff; /* 入力フィールドの背景を白に設定 */
+  color: #171717; /* 入力テキストの文字色を黒に設定 */
+}
+
+.input[type="file"] {
+  padding: 8px;
+  border: 2px dashed #CCCCCC;
+  background-color: #F5F5F5;
+  cursor: pointer;
+}
+
+textarea.input {
+  height: 100px;
+  resize: vertical;
+}
+
+.btn-primary {
+  background-color: #1E3A5F;
+  color: white;
+  padding: 12px;
+  font-weight: bold;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.btn-primary:hover {
+  background-color: #274a7b;
+}
